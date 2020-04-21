@@ -3,5 +3,6 @@ def my_each(array)
   while i < array.length
     yield(array[i])
     i += 1
+    my_each {|while|
   end
 end
